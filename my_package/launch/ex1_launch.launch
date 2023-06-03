@@ -1,0 +1,5 @@
+<launch>
+    <node name="publisher" pkg="my_package" type="ex1_pub.py" output="screen"> </node>
+
+    <node name="subscriber" pkg="my_package" type="ex1_sub.py" output="screen" > </node>
+</launch>

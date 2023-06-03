@@ -1,0 +1,5 @@
+<launch>
+    <node name="server" pkg="my_package" type="ex2_server.py" output="screen"> </node>
+
+    <node name="client" pkg="my_package" type="ex2_client.py" output="screen" > </node>
+</launch>
